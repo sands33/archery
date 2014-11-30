@@ -1,16 +1,24 @@
-#banner {max-width: 50%;
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#banner {
+	max-width: 50%;
     max-height: auto;
     float:left;
     padding top: 2%;
 }
 
-#icon {max-width: 20%;
+#icon {
+	max-width: 20%;
     max-height: auto;
     float:left;
     clear:both;
     padding-left: 5%;
     padding-right: 5%;
-  margin-top: 5%;
+    margin-top: 5%;
     margin-bottom: 5%;
     
 }
@@ -26,14 +34,13 @@
 
 .header-top {
     float:right;
-    margin-right:5%;
-    margin-left:5%;
+    margin: 0 5%;
     background-color: red;
     width:90%;
     clear:both;
     border-style: solid;
-  border-color: black;
-  border-width: medium;
+    border-color: black;
+    border-width: medium;
 }
 
 
@@ -49,7 +56,8 @@
 }
 
 
-.archTopLessons {float:right;
+.archTopLessons {
+	float:right;
     margin-right: 2rem;
     font-size: 2rem;
     color: Blue;
@@ -58,7 +66,8 @@
     background-color: yellow;
 }
 
-.archTopEmail {float:right;
+.archTopEmail {
+	float:right;
     clear:both;
     margin-right: 10%;
     font-size: 2rem;
@@ -68,29 +77,39 @@
     background-color: yellow;
 }
 
-#target-practice {max-width: 66%;
+#target-practice {
+	max-width: 66%;
     max-height: auto;
     float:left;
     clear:both;
 }
 
-#stp-about {background-color:black; color:white; margin:5px; padding:5px;
-        max-width: 65%;
+#stp-about {
+	background-color:black;
+	color:white;
+	margin: 1% 5%;
+	padding:1rem;
+    max-width: 65%;
     max-height: auto;
     float:left;
     clear:both;
     border-style: solid;
-  border-color: blue;
-  border-width: medium;
+    border-color: blue;
+    border-width: medium;
+	line-height: 1.3em;
 }
 
-#stp-directions-to {background-color:blue; color:white; margin:5px; padding:5px;
+#stp-directions-to {
+	background-color:blue;
+	color:white;
+	margin:5px;
+	padding:5px;
     width: 30%;
     max-height: auto;
     float:right;
     border-style: solid;
-  border-color: yellow;
-  border-width: medium;
+  	border-color: yellow;
+  	border-width: medium;
     
 }
 
@@ -116,23 +135,22 @@
 }
 
 #footer-block { 
-        background-color: red;
-        max-width: 100%;
-        max-height:auto;
-       
+	background-color: red;
+	max-width: 100%;
+	max-height:auto;
 }
 
 footer i {
-        display: inline-block;
-        padding-right: 15%;
-        padding-left: 15%;
-        background-color: red;
-        float: left;
+	display: inline-block;
+	padding-right: 15%;
+	padding-left: 15%;
+	background-color: red;
+	float: left;
 }
 
 #footerlogos {
-       size:large;
-       border-style: solid;
+  size:large;
+  border-style: solid;
   border-color: black;
   border-width: medium;
     
