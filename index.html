@@ -2,8 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta content="Homepage"/>
-    <title>Straight to the Point Archery Homepage</title>
+    <title>Home | Straight to the Point Archery</title>
     <link type="text/css" href="styles/archery-lessons-style.css" rel="stylesheet"/>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://maps.googleapis.com/maps/api/js"></script>
@@ -24,18 +23,18 @@
 		<!-- start header-->
 		<header class="header">
 		   <!-- get current page info -->
-			<img id="logo" src="images/stp-logo.jpg" alt="Straight to the Point Archery" a href="/">
-			<img id=icon src="images/icon.jpg"/>
+			<a href="/"><img id="logo" src="images/stp-logo.jpg" alt="Straight to the Point Archery" /></a>
+			<img id="icon" src="images/icon.jpg" alt="icon">
 			<div class="archHdrRight">
-				<div id="archCartLinks">
-					<div class="archTopEmail">Email us</div>
-					<div class="archTopLessons"><a href=archery-lessons.html>Lessons & Instructor Bio's</a></div>
-					<div class="archTopPhone">(253)555-1010</div>
-				</div>
+				<ul id="arch-cart-links">
+					<li><a href="#">Email us</a></li>
+					<li><a href="archery-lessons.html">Lessons &amp; Instructors Bio's</a></li>
+					<li><a href="#">(253)555-1010</a></li>
+				</ul>
 			</div>
 		</header>
-		<div id="stp-about">
-			<h2>Straight to the Point Archery</h2>
+		<section id="body">
+			<h1>Straight to the Point Archery</h1>
 			<p>
 			Straight to the Point Archery is a non profit archery education center founded in 2005 by Giap Nguyen.  Our state of the art educational and training facility incorporates detailed technical video analysis combined with generations of archery experience from certified coaches and instructors.
 
@@ -48,19 +47,28 @@
 			Straight to the Point Archery has an excellent network of contacts with the USA Archery (USAA), Washington State Archery Association (WSAA), Washington State Bow Hunters (WSB), National Field Archery Association (NFAA) and many more national and state archery associations. These partnerships allow you to feel confident in our facility and staff.
 			Straight to the Point Archery’s staff has decades of experience in the archery industry. We are committed to educating you with any questions that you may have.
 			</p>
-		</div>
-		<div id="stp-directions-to">
-				<h2>Driving Directions</h2>
-				<p>From the South: buy an iPhone!It's the future baby, time to pony up and plug in.</p>
-				<p>From the North: buy an iPhone!You can order pizza underwater with an iPhone!</p>
-		</div>
-		 <article>
-		   <div id="map-canvas"></div>
-		 </article>
+			<div id="stp-directions-to">
+					<h2>Driving Directions</h2>
+					<p>From the South: buy an iPhone!It's the future baby, time to pony up and plug in.</p>
+					<p>From the North: buy an iPhone!You can order pizza underwater with an iPhone!</p>
+			</div>
+			 <article>
+			   <div id="map-canvas"></div>
+			 </article>
+		</section>
 		<footer>
-			<i id="footerlogos" class="fa fa-facebook"></i>
-			<i id="footerlogos" class="fa fa-github"></i>
-			<i id="footerlogos" class="fa fa-linkedin"></i>
+			<img src="//placehold.it/100x100" alt="footer logo">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Discrimination Policy</a></li>
+			</ul>
+			<ul class="footerlogos">
+				<li><i class="fa fa-facebook"></i></li>
+				<li><i class="fa fa-github"></i></li>
+				<li><i class="fa fa-linkedin"></i></li>
+			</ul>
+			<p class="copyright">&copy; 2014 STP Archery School &amp; Store</p>
 		</footer>
 	  </div>
   </body>
