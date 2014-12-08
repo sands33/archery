@@ -1,210 +1,91 @@
-#banner {max-width: 50%;
-    max-height: auto;
-    float:left;
-    padding top: 2%;
-}
-
-#icon {max-width: 20%;
-    max-height: auto;
-    float:left;
-    clear:both;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    
-}
-
-#logo {float:center;
-    width:60%;
-    max-height:auto;
-    clear:both;
-    margin-top: 5%;
-    margin-bottom: 5%;
+<!DOCTYPE html>
+<html>
   
-}
-
-.header-top {
-    float:right;
-    margin-right:5%;
-    background-color: red;
-    width:90%;
-    clear:both;
-    border-style: solid;
-    border-color: black;
-    border-width: medium;
-}
-
-.archTopEmail {float:left;
-    width: 32%;
-    min-width: 300px;
-    clear:both;
+ <head>
+   <meta charset="utf-8">
+    <meta content="Homepage"/>
+    <title>Straight to the Point Archery Homepage</title>
+    <link type="text/css" href="styles/archery-lessons-style.css" rel="stylesheet"/>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     
-    font-size: 2rem;
-    color: Blue;
-    border-style: solid;
-    border-color: black;
-    background-color: yellow;
-}
-
-.lessons-to-home {float:left;
-    width: 33%;
-    min-width: 300px;
-    font-size: 2rem;
-    color: Blue;
-    border-style: solid;
-    border-color: black;
-    background-color: yellow;
-}
-
-.archTopPhone {float:left;
-    width: 33%;
-    min-width: 300px;
-    font-size: 2rem;
-    color: Blue;
-    border-style: solid;
-    border-color: black;
-    background-color: yellow;
-}
-
-.archTopLessons {float:right;
-    margin-right: 2rem;
-    font-size: 2rem;
-    color: Blue;
-    border-style: solid;
-    border-color: black;
-    background-color: yellow;
-}
-
-ul.lessons {
-   list-style-type: none;
-   min-width: 300px;
-   margin-left: 5%;
-   padding: 0;
-   text-align: center;
-}
- 
-ul.lessons li {
-   float:left;
-   display: inline-block;
-   max-height: auto;
-   margin: 2%;
-   position: relative;
-   max-width: 26%;
-   min-width: 300px;
-   border-style: solid;
-   border-color: blue;
-}
-
-ul.lessons img {
-   max-width: 70%;
-   max-height: auto;
-}
-
-p.description {
-   display: inline-block;
-   height: 150px;
-   margin-bottom: 5%;
-   position: relative;
+    <div class="wrapper">
+    <!-- start header--> 
+    <div class="header">
+       <!-- get current page info -->
+    
+        <div class="header-top-container">
+            <div class="header-top">
+        
+                <img id="logo" src="images/stp-logo.jpg" alt="Straight to the Point Archery" a href="/">
+            
+                <img id=icon src="images/icon.jpg"/>
+                
+            
+                <div class="archHdrRight">
+                    <div id="archCartLinks">
+                      <div class="archTopEmail">Email us</div>
+                      <div class="lessons-to-home"><a href=index.html>Return to                                 Homepage</a></div>
+                      <div class="archTopPhone">(253)555-1010</div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    </div>
+            
+</head>
+<!-- Start Body-->   
+<body>
+   <ul class="lessons">
+      <li>
+        <img src="archery/images/target-beginner.jpg"/> 
+        <h2>A101 Basic Archery</h2>
+        <p class="description">Description: A101 is a basic archery course that focuses on beginning archery safety, skills, and drills. Participants learn about archery form, range rules and etiquette. Form training and fun games are introduced in this class.
+Equipment will be provided with exception of safety kit.
+		Cost: $120/month 
+		Schedule: Mondays and Wednesdays, 4-5pm
+		Prerequisite:   Interest in learning about the sport of archery. Minimum age  8 years old or 7 w/ pre-evaluation.
+</p>
+      </li>
+      
+      <li>
+        <img src="images/target-intermediate.jpg"/> 
+          <h2>A102 Intermediate Archery</h2>
+          <p class="description">Description: A102 is an intermediate archery course that focuses on intermediate archery safety, form, and introduces new equipment styles of shooting Recurve and Compound bows. Fun games and form reinforcement techniques are emphasized in this class.
+Equipment will be provided with exception of safety kit.
+		Cost: $120/month
+		Schedule: Tuesdays and Thursdays, 4-5pm 
+		Prerequisite:A101 or recommendation from private lesson instructor. Minimum age  7 years old.
+         </p>
+      </li>
+      
+      <li>
+        <img src="images/target-expert.jpg"/> 
+        <h2>A103 Advanced Archery</h2>
+        <p class="description">Description: After taking the A101, A102 classes, students are eligible to participate in the A103 class. This class focuses on a continued education towards tournament styles of shooting used by many archery tournament associations from around the world. Along with the tournament lesson, participants receive continued knowledge around their shooting form and advice on personal equipment selections.
+Equipment will be provided with exception of safety kit.
+		Cost: $120/month
+		Schedule: Tuesdays and Thursdays, 5-6pm 
+		Prerequisite:  A101/A102 or equivalent. Minimum age  7 years old.</p>
+        
+      </li>
+      
+   </ul>
+   
+   
+  </body>
+    
   
-}
 
-span.text-content {
-   background: rgba(0,0,0,0.5);
-   color: red;
-   cursor: pointer;
-   display: table;
-   height: 150px;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 150px;
-   opacity: 0;
-   webkit-transition: opacity 500ms;
-   moz-transition: opacity 500ms;
-   o-transition: opacity 500ms;
-   transition: opacity 500ms;
-}
-
-
-ul.img-list li:hover span.text-content {
-   opacity: 1;
-}
- 
-span.text-content span {
-   display: table-cell;
-   text-align: center;
-   vertical-align: middle;
-}
-
-/* disabled custom banner to make hompage and lessons page stylized.
-#target-practice {max-width: 66%;
-    max-height: auto;
-    float:left;
-    clear:both;
-}
-*/
-
-#stp-about {background-color:black; color:white; margin:5px; padding:5px;
-        max-width: 65%;
-    max-height: auto;
-    float:left;
-    clear:both;
-    border-style: solid;
-    border-color: blue;
-    border-width: medium;
-}
-
-#stp-directions-to {background-color:blue; color:white; margin:5px; padding:5px;
-    width: 30%;
-    max-height: auto;
-    float:right;
-    border-style: solid;
-    border-color: yellow;
-    border-width: medium;
+<!-- Start Footer-->
+<!-- icons are "live source"-->
+  <footer>
+    <ul class= "footers">
+      <li> <i id="footerlogos" class="fa fa-facebook"></i></li>
+      <li> <i id="footerlogos" class="fa fa-github"></i></li>
+      <li> <i id="footerlogos" class="fa fa-linkedin"></i></li>
+    </ul>
+  </footer>
     
-}
 
-#map-canvas {
-margin:5px; 
-   padding:5px;
-   width: 30%;
-   height: 300px;
-   background-color: #CCC;
-   float:right;
-   border-style: solid;
-   border-color: red;
-   border-width: medium;
-}
-
-
-#instructors {
-  max-width: 20%;
-  max-height: auto;
-  float:left;
-  border-style: solid;
-  border-color: brown;
-}
-
-#footer-block { 
-    background-color: red;
-    max-width: 100%;
-    max-height:auto;
-}
-
-footer i {
-    display: inline-block;
-     max-width: 30%;
-    padding-right: 15%;
-    padding-left: 15%;
-    background-color: red;
-    float: left;
-}
-
-#footerlogos {
-    min-height: 100px;
-    
-    border-style: solid;
-    border-color: black;
-    border-width: medium;
-}
+</html>    
