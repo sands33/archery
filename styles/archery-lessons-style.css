@@ -68,6 +68,15 @@
     background-color: yellow;
 }
 
+.lessons-to-home {float:right;
+    margin-right: 2rem;
+    font-size: 2rem;
+    color: Blue;
+    border-style: solid;
+    border-color: black;
+    background-color: yellow;
+}
+
 #target-practice {max-width: 66%;
     max-height: auto;
     float:left;
@@ -107,12 +116,13 @@
 }
 
 
-#instructors {
-  max-width: 20%;
-  max-height: auto;
+#lessons {
+  
+  max-width: 25%;
+  max-height: 20%;
   float:left;
   border-style: solid;
-  border-color: brown;
+  border-color: blue;
 }
 
 #footer-block { 
