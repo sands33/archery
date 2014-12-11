@@ -13,7 +13,7 @@ ul, li
 	max-width: 50%;
     max-height: auto;
     float:left;
-    padding top: 2%;
+    padding-top: 2%;
 }
 
 #icon {
@@ -28,13 +28,20 @@ ul, li
     
 }
 
-#logo {float:center;
+#logo {
+	float:center;
     width:60%;
     max-height:auto;
     clear:both;
     margin-top: 5%;
     margin-bottom: 5%;
   
+}
+
+#archCartLinks div
+{
+	display: inline-block;
+	float:left;
 }
 
 .header-top {
@@ -152,4 +159,27 @@ footer i {
   border-color: black;
   border-width: medium;
     
+}
+
+article
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 70em;
+}
+
+.lessons li
+{
+	display: inline-block;
+}
+
+.lessons li img
+{
+	float: left;
+	margin: 1em 2em;
+}
+
+.lessons h2
+{
+	margin: 1em 0;
 }
