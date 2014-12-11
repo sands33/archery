@@ -1,0 +1,3 @@
+<script>
+  function initialize() {}
+</script>
