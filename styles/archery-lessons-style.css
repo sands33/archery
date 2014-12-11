@@ -40,8 +40,18 @@ ul, li
 
 #archCartLinks div
 {
+	margin-right: 2em;
+	font-size: 2rem;
+	color: Blue;
+	border-style: solid;
+	border-color: black;
+	background-color: yellow;
+	float: right;
+}
+
+#archCartLinks div div
+{
 	display: inline-block;
-	float:left;
 }
 
 .header-top {
@@ -73,14 +83,8 @@ ul, li
     background-color: yellow;
 }
 
-.archTopEmail {
-    margin-right: 10%;
-    font-size: 2rem;
-    color: Blue;
-    border-style: solid;
-    border-color: black;
-    background-color: yellow;
-}
+
+
 
 #target-practice {
 	max-width: 66%;
@@ -182,4 +186,19 @@ article
 .lessons h2
 {
 	margin: 1em 0;
+}
+
+.wrapper {
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+}
+
+footer .links
+{
+	clear: both;
+}
+
+footer .links li
+{
+	display: inline-block;
 }
